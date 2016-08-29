@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    color: #333;
+}
+
+aside {
+    float: left;
+    width: 360px;
+}
+
+main {
+    float: left;
+    max-width: 67%;
+    width: 720px;
+}
+
+h4, h5 {
+    margin-bottom: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.content {
+    display: inline-block;
+}
+
+.new-clip-form div + * {
+    margin-top: 5px;
+}
+
+.new-clip-form input {
+    margin-right: 40px;
+    float: right;
+}
+
+.title {
+    font-size: 96px;
+    text-align: center;
+}
+
+#video_player {
+    width: 100%;
+}
+
+.video-player-clip-box {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px;
+    background-color: #204d74;
+    color: #e3e3e3;
+}
+
+.button:hover {
+    background-color: #275f8c;
+}
+
+.button:active {
+    background-color: #193c59;
+}
+
+.clip {
+    margin-bottom: 10px;
+}
+
+.controls {
+    margin-top: 5px;
+}
+
+.controls * + * {
+    margin-left: 5px;
+}
+
+.error {
+    color: #d62728;
+}
