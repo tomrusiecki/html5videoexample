@@ -30,6 +30,8 @@ are no longer any clips attached to the tag.
 4. Run "php artisan migrate --seed"
 5. Navigate to /
 
+You may need to give write permissions to the storage/ directory in the project for it to run.
+
 Test video from www.sample-videos.com
 
 -- Tom Rusiecki
