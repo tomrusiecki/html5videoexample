@@ -3,6 +3,7 @@
 An example application that allows a user to slice up a video into clips.
 
 Frontend: ReactJS
+
 Backend: PHP and MYSQL, using Laravel 5.2
 
 Features:
